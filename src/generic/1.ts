@@ -4,7 +4,7 @@
 */
 
 function getPromise () {
-  return new Promise((resolve) => {
+  return new Promise<any>((resolve) => {
     resolve(['Text', 50]);
   });
 }
